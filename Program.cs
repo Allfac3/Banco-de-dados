@@ -29,13 +29,13 @@ Código em Python
 Primeiro, certifique-se de ter as bibliotecas instaladas:
 
 bash
-Copiar código
+
 pip install pandas openpyxl
 Código do Script
 Aqui está um exemplo de script para carregar, processar e atualizar a planilha de esquetes:
 
 python
-Copiar código
+
 import pandas as pd
 from datetime import datetime
 
@@ -78,7 +78,7 @@ Salvar Atualizações: Salva o dataframe atualizado de volta na planilha Excel.
 Você pode expandir o script para gerar relatórios automáticos de obras atrasadas:
 
 python
-Copiar código
+
 # Filtrar esquetes atrasados
 esquetes_atrasados = df[df['Status'] == 'Atrasado']
 
@@ -91,7 +91,7 @@ print("Relatório de atrasos gerado com sucesso!")
 Salve o script como controle_esquete.py e execute-o em sua máquina com:
 
 bash
-Copiar código
+
 python controle_esquete.py
 Ao final, você terá:
 
